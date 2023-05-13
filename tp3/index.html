@@ -11,14 +11,13 @@
 <body>
     <div style=" display: flex; justify-content: center; ">
         <table border="1">
-            <th>
-                <input type="text" name="Personaje" id="CharBox1">
-                <input type="button" value="Consultar" onclick="getCharacter(1); getCharacter(2);">
-                <input type="text" name="Personaje" id="CharBox2">
-            </th>
+            
+            <tr>
+                <th><input type="text" name="Personaje" id="CharBox1"></th>
+                <th><input type="text" name="Personaje" id="CharBox2"></th>
+            </tr>
         </table>
-        
-
+        <input type="button" value="Consultar" onclick="getCharacters();">
     </div>
     <div style=" display: flex; justify-content: center; ">
         <table border="1">
@@ -38,8 +37,7 @@
             </th>
         </table>
     </div>
-
+    <p id="qdm" style="display: flex; justify-content: center; "></p>
 </body>
-
 </html>
 <script src="JS.js"></script>
